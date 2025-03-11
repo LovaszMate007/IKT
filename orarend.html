@@ -1,38 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Timetable</title>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        th, td {
-            border: 1px solid black;
-            padding: 8px;
-            text-align: center;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-    </style>
+    <title>Órarendem</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Weekly Timetable</h1>
+    <nav>
+        <a href="index.html">FŐOLDAL</a> |
+        <a href="listak.html">LISTÁK</a> |
+        <a href="orarend.html">ÓRAREND</a> |
+    </nav>
+    <h1>Órarend</h1>
     <table>
-        <thead>
+        <th>
             <tr>
-                <th>Lesson</th>
-                <th>Monday</th>
-                <th>Tuesday</th>
-                <th>Wednesday</th>
-                <th>Thursday</th>
-                <th>Friday</th>
+                <th>Óra</th>
+                <th>Hétfő</th>
+                <th>Kedd</th>
+                <th>Szerda</th>
+                <th>Csütörtök</th>
+                <th>Péntek</th>
             </tr>
-        </thead>
-        <tbody>
+        </th>
             <tr>
                 <td>0</td>
                 <td></td>
@@ -105,7 +96,6 @@
                 <td></td>
                 <td></td>
             </tr>
-        </tbody>
     </table>
 </body>
 </html>
