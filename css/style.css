@@ -24,6 +24,7 @@ table {
     table-layout: fixed;
     background-color: darkblue;
     border-radius: 2px;
+    color: white;
 }
 h2 {
     text-align: center;
