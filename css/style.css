@@ -1,15 +1,34 @@
 img{
     width: 400px;
 }
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: middle;
+}
+tr:hover {
+    background-color:orangered;
+    color: white;
+}
+tr:first-child {
+    background-color: orangered;
+    color: white;
+    font-size: 1.2em;
+    padding: 10vh 10vw;
+}
+
 table {
     width: 100%;
-    border-collapse: collapse;
+    font-size: 0.7em;
+    table-layout: fixed;
+    background-color: darkblue;
+    border-radius: 2px;
 }
-th, td {
-    border: 1px solid black;
-    padding: 8px;
+h2 {
     text-align: center;
 }
-th {
-    background-color: #f2f2f2;
+
+.terkoz {
+    padding-top: 6px;
 }
