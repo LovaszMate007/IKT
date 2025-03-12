@@ -6,6 +6,7 @@ table, th, td {
     border-collapse: collapse;
     text-align: center;
     vertical-align: middle;
+    color: white;
 }
 tr:hover {
     background-color:orangered;
@@ -24,7 +25,6 @@ table {
     table-layout: fixed;
     background-color: darkblue;
     border-radius: 2px;
-    color: white;
 }
 h2 {
     text-align: center;
